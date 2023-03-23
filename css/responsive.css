@@ -1,0 +1,141 @@
+@media screen and (min-width: 1200px) {
+  html,
+body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  html,
+body {
+    font-size: 15px;
+  }
+  html .banner .banner-aside .banner-socials,
+body .banner .banner-aside .banner-socials {
+    padding: 14rem 8rem 14rem 1.5rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  html,
+body {
+    font-size: 15px;
+  }
+  html header.header,
+body header.header {
+    overflow: hidden;
+  }
+  html header.header button.header-burger-btn,
+body header.header button.header-burger-btn {
+    display: block;
+    right: 30px;
+    top: 7px;
+    position: absolute;
+  }
+  html header.header nav.nav,
+body header.header nav.nav {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    background: #373737;
+    padding: 30px 0 20px 60px;
+    z-index: 5;
+    transition: 0.5s all linear;
+  }
+  html header.header nav.nav ul,
+body header.header nav.nav ul {
+    display: block;
+  }
+  html header.header nav.nav ul li a,
+body header.header nav.nav ul li a {
+    color: #FFF;
+    display: block;
+    padding: 5px 10px;
+  }
+  html header.header .header-search,
+body header.header .header-search {
+    display: none;
+  }
+  html .header.open .nav,
+body .header.open .nav {
+    transform: translateX(100%);
+  }
+  html .banner .banner-aside .banner-socials,
+body .banner .banner-aside .banner-socials {
+    padding: 14rem 4rem 14rem 1.5rem;
+  }
+  html .learn-about-us .container-wider .about-us-section .about-us-desc,
+body .learn-about-us .container-wider .about-us-section .about-us-desc {
+    padding: 0 20px;
+  }
+  html .provide-service .service-cards .service-card,
+body .provide-service .service-cards .service-card {
+    text-align: center;
+  }
+  html .our-furniture ul.furniture-list,
+body .our-furniture ul.furniture-list {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  html,
+body {
+    font-size: 14px;
+  }
+  html header.header .header-burger-btn,
+body header.header .header-burger-btn {
+    right: 50px;
+  }
+}
+@media screen and (max-width: 576px) {
+  html,
+body {
+    font-size: 13px;
+  }
+  html header.header .header-burger-btn,
+body header.header .header-burger-btn {
+    top: -15px;
+  }
+  html header.header .header-search a,
+body header.header .header-search a {
+    display: none;
+  }
+  html .banner-aside,
+body .banner-aside {
+    display: none;
+  }
+  html section.banner-stats,
+body section.banner-stats {
+    justify-content: space-between;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  html section.banner-stats .banner-stats-numbers,
+body section.banner-stats .banner-stats-numbers {
+    font-size: 1.875rem;
+  }
+  html section.banner-stats .banner-stats-desc,
+body section.banner-stats .banner-stats-desc {
+    font-size: 1rem;
+    text-align: center;
+  }
+  html footer,
+body footer {
+    text-align: center;
+  }
+  html footer .footer-socials,
+body footer .footer-socials {
+    justify-content: center;
+  }
+  html footer .footer-socials a,
+body footer .footer-socials a {
+    display: block;
+  }
+  html footer input,
+body footer input {
+    width: 100%;
+  }
+  html footer button,
+body footer button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=responsive.css.map */

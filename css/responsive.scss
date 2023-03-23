@@ -1,0 +1,183 @@
+@import 'utils';
+
+
+
+@media screen and (min-width: 1200px) {
+
+    html,
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    html,
+    body {
+        font-size: 15px;
+
+        .banner {
+            .banner-aside {
+                .banner-socials {
+                    padding: 14rem 8rem 14rem 1.5rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    html,
+    body {
+        font-size: 15px;
+
+        header.header {
+            overflow: hidden;
+
+            button.header-burger-btn {
+                display: block;
+                right: 30px;
+                top: 7px;
+                position: absolute;
+            }
+
+            nav.nav {
+                position: absolute;
+                top: 0;
+                left: -200px;
+                width: 200px;
+                background: $COLOR-GREY;
+                padding: 30px 0 20px 60px;
+                z-index: 5;
+                transition: .5s all linear;
+
+                ul {
+                    display: block;
+
+                    li {
+                        a {
+                            color: $COLOR-WHITE;
+                            display: block;
+                            padding: 5px 10px;
+                        }
+                    }
+                }
+            }
+
+            .header-search {
+                display: none;
+            }
+        }
+
+        .header.open .nav {
+            transform: translateX(100%);
+        }
+
+        .banner {
+            .banner-aside {
+                .banner-socials {
+                    padding: 14rem 4rem 14rem 1.5rem;
+                }
+            }
+        }
+
+        .learn-about-us {
+            .container-wider {
+                .about-us-section {
+                    .about-us-desc {
+                        padding: 0 20px;
+                    }
+                }
+            }
+        }
+
+        .provide-service {
+            .service-cards {
+                .service-card {
+                    text-align: center;
+                }
+            }
+        }
+
+        .our-furniture {
+            ul.furniture-list {
+                display: none;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 14px;
+
+        header.header {
+            .header-burger-btn {
+                right: 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    html,
+    body {
+        font-size: 13px;
+
+        header.header {
+            .logo {
+                // top: 15px;
+                // position: relative;
+            }
+
+            .header-burger-btn {
+                top: -15px;
+            }
+
+            .header-search {
+                a {
+                    display: none;
+                }
+            }
+        }
+        .banner-aside {
+            display: none;
+        }
+
+        section.banner-stats {
+            justify-content: space-between;
+            column-gap: 0.5rem;
+            .banner-stats-numbers {
+                font-size: $FONT-SIZE-30PX;
+            }
+            .banner-stats-desc {
+                font-size: $FONT-SIZE-16PX;
+                text-align: center;
+            }
+        }
+
+        footer {
+            text-align: center;
+
+            .footer-socials {
+                justify-content: center;
+                a {
+                    display: block;
+                }
+            }
+            input {
+                width: 100%;
+            }
+            button {
+                width: 100%;
+            }
+        }
+
+    }
+}
